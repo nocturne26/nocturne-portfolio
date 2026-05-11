@@ -425,14 +425,24 @@ button:hover {
   color: #b89472;
 }
 
+/* ---------------- MOBILE MENU ---------------- */
+
 .menu-toggle {
   display: none;
+  background: transparent;
+  border: 1px solid rgba(184,148,114,0.4);
+  color: #f4ede4;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 @media(max-width: 768px) {
 
   .site-nav {
     align-items: flex-start;
+    flex-wrap: wrap;
   }
 
   .menu-toggle {
@@ -451,22 +461,4 @@ button:hover {
   .nav-links.open {
     display: flex;
   }
-}
-
-.menu-toggle {
-  display: none;
-
-  background: transparent;
-
-  border: 1px solid rgba(184,148,114,0.4);
-
-  color: #f4ede4;
-
-  padding: 10px 14px;
-
-  border-radius: 10px;
-
-  font-size: 1.2rem;
-
-  cursor: pointer;
 }
