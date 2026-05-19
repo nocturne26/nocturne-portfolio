@@ -462,3 +462,18 @@ button:hover {
     display: flex;
   }
 }
+
+.project-more {
+  margin-top: 16px;
+  color: #d8c9ba;
+}
+
+.project-more summary {
+  cursor: pointer;
+  color: #b89472;
+  margin-bottom: 12px;
+}
+
+.project-more p {
+  margin-top: 12px;
+}
